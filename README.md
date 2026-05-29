@@ -22,7 +22,7 @@ https://legal.littlebrushgames.com
 ## Current assumptions
 
 - Product: Truth or Mole
-- Operator: Little Brush Games
+- Operator: Natalia Cherkashina trading as Little Brush Games
 - Contact: support@littlebrushgames.com
 - Jurisdiction: Germany
 - Distribution: Apple App Store and Google Play
@@ -35,9 +35,9 @@ https://legal.littlebrushgames.com
 
 German/EU imprint details should be completed with final legally accurate data:
 
-- full postal address
-- responsible person details, if required
-- VAT ID, if applicable
+- business/virtual address for a fully compliant German Impressum, if obtained later
+- final confirmation of responsible person details
+- VAT ID, if obtained later
 - final production confirmation that Firebase Analytics is the only analytics SDK and no crash/ad SDKs are integrated
 
 This repository contains a practical template and is not legal advice.
