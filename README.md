@@ -14,6 +14,8 @@ https://legal.littlebrushgames.com
 - `terms.html` — Terms & Conditions
 - `privacy.html` — Privacy Policy
 - `imprint.html` — Imprint / Impressum
+- `data-deletion.html` — data deletion request information
+- `robots.txt` and `sitemap.xml` — crawler metadata
 - `styles.css` — shared styles
 - `CNAME` — GitHub Pages custom domain
 
@@ -27,7 +29,7 @@ https://legal.littlebrushgames.com
 - Monetisation: subscriptions / in-app purchases
 - Accounts/login: no Little Brush Games account required
 - User-generated content: none through Little Brush Games services
-- Analytics: anonymous or aggregated analytics
+- Analytics: anonymous, aggregated, or pseudonymous analytics depending on final SDK behaviour
 
 ## Still required before public launch
 
