@@ -32,7 +32,7 @@
       <ul>
         <li><strong>Anonymous or aggregated analytics</strong>, such as feature usage, screen views, app version, approximate region, device type, language, session length, and gameplay balance statistics.</li>
         <li><strong>Technical and crash data</strong>, such as operating system, device model, performance information, crash logs, error reports, and diagnostics.</li>
-        <li><strong>Purchase and subscription status</strong>, such as whether a subscription or in-app purchase is active, expired, cancelled, or refunded. App stores normally handle payment details directly.</li>
+        <li><strong>Purchase and subscription status</strong>, such as whether a subscription or in-app purchase is active, expired, cancelled, or refunded. Subscriptions and purchases are handled natively through Apple App Store and Google Play, and the app stores normally handle payment details directly.</li>
         <li><strong>Support communications</strong>, such as your email address and message content if you contact us for help.</li>
         <li><strong>App-store platform data</strong>, such as information made available by Apple App Store, Google Play, or similar distribution platforms.</li>
       </ul>
@@ -61,10 +61,10 @@
 
       <h2>5. Analytics</h2>
       <p>Truth or Mole may use anonymous, aggregated, or pseudonymous analytics to understand how the game is used and how to improve it. We do not use analytics to identify you by name.</p>
-      <p>Depending on the analytics provider and platform, technical identifiers such as installation identifiers, device identifiers, IP-derived approximate region, or event identifiers may be processed before reports are aggregated or anonymised. Where required by law or platform policy, analytics choices will be provided in the app or through your device settings.</p>
+      <p>Truth or Mole currently uses Firebase Analytics by Google for analytics. Depending on the platform and SDK configuration, technical identifiers such as Firebase installation identifiers, app instance identifiers, device information, IP-derived approximate region, or event identifiers may be processed before reports are aggregated or anonymised. Where required by law or platform policy, analytics choices will be provided in the app or through your device settings.</p>
 
       <h2>6. Subscriptions and payments</h2>
-      <p>Subscriptions and in-app purchases are normally processed by the platform where you obtained the app, such as Apple App Store or Google Play. These platforms may process payment information, receipts, tax information, refund requests, and subscription status under their own terms and privacy policies.</p>
+      <p>Subscriptions and in-app purchases are processed natively by the platform where you obtained the app, such as Apple App Store or Google Play. These platforms may process payment information, receipts, tax information, refund requests, and subscription status under their own terms and privacy policies.</p>
       <p>We may receive limited purchase or subscription status information needed to unlock premium features and provide support.</p>
 
       <h2>7. Children</h2>
@@ -73,8 +73,8 @@
 
       <h2>8. Third-party services</h2>
       <p>Truth or Mole may rely on third-party services for app distribution, subscriptions, analytics, crash reporting, hosting, device operating-system features, and support. These providers may process data according to their own privacy policies.</p>
-      <p>Currently known providers include Apple App Store, Google Play, GitHub Pages, Cloudflare, and the analytics, crash-reporting, or subscription providers integrated into the final app build.</p>
-      <p>The exact provider list will be updated when the production SDK list is final.</p>
+      <p>Currently known providers include Apple App Store, Google Play, Firebase Analytics by Google, GitHub Pages, and Cloudflare.</p>
+      <p>Truth or Mole does not currently use advertising networks.</p>
 
       <h2>9. Cookies and website data</h2>
       <p>This legal website may be hosted through GitHub Pages and may be delivered through Cloudflare or similar infrastructure. Basic technical data, such as IP address, browser information, timestamps, and request logs, may be processed by hosting or security providers to deliver the website and protect it from abuse.</p>

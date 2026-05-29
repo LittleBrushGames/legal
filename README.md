@@ -29,7 +29,7 @@ https://legal.littlebrushgames.com
 - Monetisation: subscriptions / in-app purchases
 - Accounts/login: no Little Brush Games account required
 - User-generated content: none through Little Brush Games services
-- Analytics: anonymous, aggregated, or pseudonymous analytics depending on final SDK behaviour
+- Analytics: Firebase Analytics by Google; anonymous, aggregated, or pseudonymous analytics depending on SDK behaviour
 
 ## Still required before public launch
 
@@ -38,7 +38,7 @@ German/EU imprint details should be completed with final legally accurate data:
 - full postal address
 - responsible person details, if required
 - VAT ID, if applicable
-- final list of analytics / crash-reporting / subscription SDKs actually integrated in the app
+- final production confirmation that Firebase Analytics is the only analytics SDK and no crash/ad SDKs are integrated
 
 This repository contains a practical template and is not legal advice.
 
