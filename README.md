@@ -1,6 +1,12 @@
-# Little Brush Games — Legal
+# Truth or Mole — Legal
 
-Static legal-document website for Little Brush Games, intended for GitHub Pages.
+Static legal-document website for **Truth or Mole**, a mobile game by **Little Brush Games**.
+
+Production domain:
+
+```text
+https://legal.littlebrushgames.com
+```
 
 ## Pages
 
@@ -9,18 +15,28 @@ Static legal-document website for Little Brush Games, intended for GitHub Pages.
 - `privacy.html` — Privacy Policy
 - `imprint.html` — Imprint / Impressum
 - `styles.css` — shared styles
+- `CNAME` — GitHub Pages custom domain
 
-## Before publication
+## Current assumptions
 
-Replace all visible `TODO` fields with final legal information:
+- Product: Truth or Mole
+- Operator: Little Brush Games
+- Contact: support@littlebrushgames.com
+- Jurisdiction: Germany
+- Distribution: Apple App Store and Google Play
+- Monetisation: subscriptions / in-app purchases
+- Accounts/login: no Little Brush Games account required
+- User-generated content: none through Little Brush Games services
+- Analytics: anonymous or aggregated analytics
 
-- legal name / company name or natural person name
-- postal address required for Impressum
-- contact email
+## Still required before public launch
+
+German/EU imprint details should be completed with final legally accurate data:
+
+- full postal address
+- responsible person details, if required
 - VAT ID, if applicable
-- responsible person under German media law, if applicable
-- exact list of analytics, crash reporting, ads, payments, hosting, and platform SDKs
-- exact product names, purchase/subscription/refund rules, and jurisdiction choices
+- final list of analytics / crash-reporting / subscription SDKs actually integrated in the app
 
 This repository contains a practical template and is not legal advice.
 
@@ -32,15 +48,9 @@ This repository contains a practical template and is not legal advice.
 4. Folder: `/root`.
 5. Save.
 
-## Custom domain
+## Cloudflare DNS
 
-After DNS is configured, add a file named `CNAME` with only the domain name, for example:
-
-```text
-legal.example.com
-```
-
-Recommended Cloudflare DNS for a subdomain:
+Recommended DNS record:
 
 ```text
 Type: CNAME
